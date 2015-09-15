@@ -32,6 +32,7 @@ namespace GraphViewDemo
 			BarGraphSeries series = new BarGraphSeries (points);
 			_graph.AddSeries (series);
 		}
+
 	}
 }
 
