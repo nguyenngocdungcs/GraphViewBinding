@@ -1,6 +1,26 @@
 ﻿<Properties StartupItem="GraphViewDemo/GraphViewDemo.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.101:5555" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GraphViewDemo/MainActivity.cs">
+    <Files>
+      <File FileName="GraphViewDemo/MainActivity.cs" Line="26" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GraphViewBinding" expanded="True">
+            <Node name="GraphViewBinding" expanded="True">
+              <Node name="Jars" expanded="True">
+                <Node name="GraphView-4.0.1.jar" selected="True" />
+              </Node>
+            </Node>
+            <Node name="GraphViewDemo" expanded="True">
+              <Node name="Packages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,4 +7,8 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
+  <attr path="/api/package[@name='com.jjoe64.graphview']" name="managedName">AndroidGraphView</attr>
+  <attr path="/api/package[@name='com.jjoe64.graphview.compat']" name="managedName">AndroidGraphView.Compat</attr>
+  <attr path="/api/package[@name='com.jjoe64.graphview.helper']" name="managedName">AndroidGraphView.Helper</attr>
+  <attr path="/api/package[@name='com.jjoe64.graphview.series']" name="managedName">AndroidGraphView.Series</attr>
 </metadata>
