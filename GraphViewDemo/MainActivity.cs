@@ -45,8 +45,9 @@ namespace GraphViewDemo
 			_graph.Viewport.SetMinY (0);
 			_graph.Viewport.YAxisBoundsManual = true;
 
-			_graph.Viewport.SetMaxX (points.Max (x => x.GetX()) + 100);
-			_graph.Viewport.SetMinX (points.Min (x => x.GetX()) - 1000);
+			double aDay = 24 * 60 * 60 * 1000;
+			_graph.Viewport.SetMaxX (points.Max (x => x.GetX()) + aDay);
+			_graph.Viewport.SetMinX (points.Min (x => x.GetX()) - aDay);
 			_graph.Viewport.XAxisBoundsManual = true;
 		}
 	}
